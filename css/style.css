@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Noto+Sans+JP:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+body
+{
+    background-color: #f8f7f7;
+}
+
+.Pealkiri
+{
+    text-align: center;
+    background-color: red;
+    padding: 1rem;
+    
+}
+
+.heading
+{
+    background-color: red;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.heading div
+{
+    width: 20%;
+    padding: 1rem;
+}
+
+.heading a
+{
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius:1.5rem;
+    color: red;
+    display: block;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+img
+{
+    width: 40rem;
+    height: auto;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+
+.koostiosadTable
+{
+    border: 5px solid black;
+    border-spacing: 5px;
+    border-radius: 1rem;
+    text-decoration: none;
+    margin: 0 auto;
+    color: rgb(255, 3, 3);
+    padding: 0.5rem;
+}
+
+.koositisOsadePalkiri
+{
+    font-size: 1.5rem;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.koostiosadTable td
+{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+}
+
+hr
+{
+    margin: 1rem;
+    height: 0.2rem;
+    background-color: red;
+}
+
+.Valmistamine
+{
+    background-color: red;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+}
+
+.olConnteriner
+{
+    width:  30rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+ol {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+}
+
+li
+{
+   margin: 0 0 2rem 0;
+}
+p
+{
+    display: inline;
+}
+footer
+{
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+}
